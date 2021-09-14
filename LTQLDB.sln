@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTQLDB", "LTQLDB\LTQLDB.csproj", "{4E9C3235-F726-4AE1-8F32-C0C55679C4ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E9C3235-F726-4AE1-8F32-C0C55679C4ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9C3235-F726-4AE1-8F32-C0C55679C4ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9C3235-F726-4AE1-8F32-C0C55679C4ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9C3235-F726-4AE1-8F32-C0C55679C4ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A5E62319-3DEB-45FC-80B6-CCFD529C05EA}
+	EndGlobalSection
+EndGlobal
