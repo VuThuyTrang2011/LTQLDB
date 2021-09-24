@@ -134,28 +134,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Account.cs">
-      <DependentUpon>LapTrinhQuanLyDBcontext.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\LapTrinhQuanLyDBcontext.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LapTrinhQuanLyDBcontext.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\LapTrinhQuanLyDBcontext.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LapTrinhQuanLyDBcontext.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\LapTrinhQuanLyDBcontext.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>LapTrinhQuanLyDBcontext.edmx</DependentUpon>
-    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\LapTrinhQuanLyDBcontext.cs" />
     <Compile Include="Models\Student.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Views\Account.cs" />
-    <Compile Include="Views\LapTrinhQuanLyDBcontext.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -166,25 +148,8 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\LapTrinhQuanLyDBcontext.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>LapTrinhQuanLyDBcontext.Context.cs</LastGenOutput>
-      <DependentUpon>LapTrinhQuanLyDBcontext.edmx</DependentUpon>
-    </Content>
-    <Content Include="Models\LapTrinhQuanLyDBcontext.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>LapTrinhQuanLyDBcontext.edmx</DependentUpon>
-      <LastGenOutput>LapTrinhQuanLyDBcontext.cs</LastGenOutput>
-    </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\LapTrinhQuanLyDBcontext.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>LapTrinhQuanLyDBcontext.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="Models\LapTrinhQuanLyDBcontext.edmx.diagram">
-      <DependentUpon>LapTrinhQuanLyDBcontext.edmx</DependentUpon>
-    </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />

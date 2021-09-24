@@ -1,24 +1,20 @@
-﻿using System.Data.Entity;
+﻿using System;
+using System.Collections.Generic;
+using System.Data.Entity;
+using System.Linq;
+using System.Web;
 
 namespace LTQLDB.Models
 {
-    public class LapTrinhQuanLyDBContext : DbContext
+    public class LapTrinhQuanLyDBcontext : DbContext
     {
-        public LapTrinhQuanLyDBContext() : base("name=LapTrinhQuanLyDBContext")
+            public LapTrinhQuanLyDBcontext() : base("LapTrinhQuanLyDBcontext")
         {
         }
 
-        public virtual DbSet<Account> Accounts { get; set; }
+        public DbSet<Student> Students { get; set; }
+        
 
-        public virtual DbSet<Student> Students { get; set; }
-
-
-
-
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-
-        }
+        
     }
 }
-//DESKTOP - RI67TA0\SQLEXPRESS
